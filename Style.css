@@ -1,0 +1,139 @@
+body {
+  
+  margin: 0;
+  background-color: #FEFF9F;
+  color: white;
+  overflow: hidden;
+
+}
+
+.nav{
+  width: 100%;
+  height: 90px;
+  background-color: #D3EE98;
+  /* border: 1px black solid; */
+
+  margin-right: 0.2rem;
+ display: flex;
+  padding: 0.4rem;
+}
+.nav p{
+  font-family: Tahoma;
+}
+
+.one,.three,.five,.seven{
+  display: flex;
+  flex-direction: row;
+}
+.two , .four,.six{
+  background-color: aliceblue;
+}
+
+.sidebar{
+  height: 100vh;
+  width: 600px;
+  background-color: #72BF78;
+  /* border: 1px black solid; */
+  margin: 1rem 0rem 0rem 1rem;
+  border-radius: 1rem;
+  padding: 4px;
+}
+
+
+
+.main{
+  height: 100vh;
+  width: 98%;
+  background-color: #A0D683;
+  /* border: 1px black solid; */
+  margin: 1rem;
+  border-radius: 1rem;
+  /* padding: 0.4rem; */
+  overflow: auto;
+
+  padding-bottom: 100px;
+}
+::-webkit-scrollbar {
+  display: none;             /* Hide scrollbar in Chrome, Safari, Edge */
+}
+
+.logo{
+  height: 5.5rem;
+  width: 5.5rem;
+  margin-left: 1rem;
+}
+
+/* .main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+} */
+.lec{
+  
+    background-color: #86AB89;
+    width:100%;
+    height: 500px;
+    /* border-radius: 0.5rem; */
+    
+    /* margin-left: 1.5rem;
+   
+    margin-top: 1rem; */
+
+    
+    
+
+}
+
+.two , .four,.six,.eight{
+  background-color: rgb(73, 164, 244);
+  display: flex;
+  flex-direction: row;
+
+}
+
+.lec iframe:hover{
+  /* box-shadow:0.5px 0.5px 8px red;
+  width: 405px;
+    height: 227.3px; */
+
+}
+
+.locked iframe:hover{
+  /* box-shadow:0.5px 0.5px 8px grey;
+  opacity: 0.5;
+  width: 405px;
+    height: 227.3px; */
+}
+
+.link{
+  width:888.888px ;
+    height: 100%;
+}
+
+.ev{
+   justify-content: flex-end;
+}
+
+
+.content{
+  width: 400px;
+  height: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.title{
+  background-color: rgba(196, 247, 113, 0.813);
+  border-radius: 20px;
+  width: 100%;
+  height: 90px;
+  padding: 0px 0px;
+  color: black;
+  font-family: Tahoma;
+  text-align: center;
+  word-spacing: 0.1rem;
+
+}
+.content p {
+   font-size: 1.5rem;
+   /* text-align: center; */
+}
